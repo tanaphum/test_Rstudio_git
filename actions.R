@@ -1,3 +1,5 @@
 usethis::use_github_action("check-standard")
 usethis::use_github_action("test-coverage")
 usethis::use_github_action("pkgdown")
+usethis::use_github_action(url = "https://raw.githubusercontent.com/rstudio/actions/main/examples/connect-publish.yaml")
+usethis::use_github_action(url = "https://raw.githubusercontent.com/rstudio/actions/main/examples/package-manager-publish-r.yaml", open = TRUE)
